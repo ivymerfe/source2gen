@@ -27,7 +27,7 @@ namespace {
             loader::get_module_file_name("tier0"),
 
 #if defined(DOTA2)
-            loader::get_module_file_name("navsystem"),
+            // loader::get_module_file_name("navsystem"),
 #elif defined(CS2)
             loader::get_module_file_name("matchmaking"),
 #endif
